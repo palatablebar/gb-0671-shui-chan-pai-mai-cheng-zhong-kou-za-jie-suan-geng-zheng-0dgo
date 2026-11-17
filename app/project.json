@@ -10,7 +10,8 @@
     "扣杂竞价",
     "更正裁决",
     "应付对账",
-    "结算归档"
+    "结算归档",
+    "拼车拆账"
   ],
   "rule": "双次称重先配对，再按品类扣杂；更正只能替代指定版本，禁止重复支付",
   "lane": "L1",
@@ -29,7 +30,8 @@
     "auction",
     "correction",
     "reconcile",
-    "archive"
+    "archive",
+    "split"
   ],
   "labels": {
     "id": "记录号",
@@ -63,6 +65,23 @@
     "repeated_header": "重复表头",
     "row_balanced": "行守恒",
     "money_balanced": "金额守恒",
-    "blocked": "阻断项"
+    "blocked": "阻断项",
+    "household": "户",
+    "baskets": "筐数",
+    "est_kg": "估重 kg",
+    "flag": "货包类型",
+    "provisional": "暂计 CNY",
+    "share": "分摊差额 CNY",
+    "tail": "尾差 CNY",
+    "final": "可发布 CNY",
+    "payable": "车票应付 CNY",
+    "difference": "差额 CNY",
+    "provisional_total": "暂计合计 CNY",
+    "covered": "完整覆盖",
+    "publishable": "可发布",
+    "basis": "依据",
+    "evidence": "依据",
+    "mode": "分摊方式",
+    "tail_household": "尾差户"
   }
 }
